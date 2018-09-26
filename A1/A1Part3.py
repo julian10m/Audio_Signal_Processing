@@ -19,7 +19,7 @@ def hopSamples(x,M):
         A numpy array containing every Mth element in x, starting from the first element in x.
     """
     ## Your code here
-    import numpy as np
+    ## import numpy as np
     return x[::M]
     ## return np.array([xx for pos,xx in enumerate(x) if pos%M==0])
 
